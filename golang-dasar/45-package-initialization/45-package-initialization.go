@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"golang-dasar/45-package-initialization/database"
+	"golang-roadmap/golang-database/database"
 )
 
 func main() {
 
-	connection := database.GetDatabase()
+	connection := database.GetConnection()
 	fmt.Println(connection)
 }

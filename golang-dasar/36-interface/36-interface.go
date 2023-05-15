@@ -31,7 +31,9 @@ func (person Person) GetName() string {
 }
 
 func main() {
-	var ilham Person
+	var ilham = Person{
+		name: "Ilham",
+	}
 
 	sayHello(ilham)
 }

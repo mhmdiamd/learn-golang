@@ -55,13 +55,10 @@ func (repository *commentRepositoryImpl) FindById(ctx context.Context, commentId
 func (repository *commentRepositoryImpl) FindAll(ctx context.Context) ([]entity.Comment, error) {
 	query := "SELECT * FROM comments"
 	rows, err := repository.DB.QueryContext(ctx, query)
-
 	if err != nil {
 		panic(err)
 	}
-
 	var comments []entity.Comment
-
 	for rows.Next() {
 		var comment entity.Comment
 		rows.Scan(&comment.Id, &comment.Email, &comment.Comment)

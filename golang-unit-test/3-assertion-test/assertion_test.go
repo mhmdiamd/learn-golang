@@ -6,8 +6,7 @@ package assertion
 import (
 	"fmt"
 	"testing"
-
-	"github.com/stretchr/testify/require"
+	// "github.com/stretchr/testify/require"
 )
 
 func TestSayWorldAssertion(t *testing.T) {

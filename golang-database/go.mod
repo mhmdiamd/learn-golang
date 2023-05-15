@@ -1,4 +1,4 @@
-module golang-database
+module golang-roadmap/golang-database
 
 go 1.18
 

@@ -1,3 +1,3 @@
-module golang-dasar
+module golang-roadmap/golang-dasar
 
 go 1.18

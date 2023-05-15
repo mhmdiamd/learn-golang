@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"golang-dasar/helper"
+	helper "golang-roadmap/golang-unit-test/1-helper"
 )
 
 func main() {
-	name := helper.SayHello("Ilham")
+	name := helper.HelloWorld("Ilham")
 
 	fmt.Println(name)
 }
