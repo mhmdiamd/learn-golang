@@ -1,0 +1,13 @@
+{
+  "FirstName":  "Muhamad",
+  "MiddleName": "Ilham",
+  "LastName":   "Darmawan",
+  "Hobbies": ["Futsal", "Gaming", "Programming"],
+  "Addresses": [
+    {
+      "Street":     "Jl Pondok salak",
+      "Country":    "Indonesia",
+      "PostalCode": "15416"
+    }
+  ]
+}
